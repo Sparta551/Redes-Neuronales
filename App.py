@@ -760,6 +760,6 @@ with gr.Blocks(**_blocks_kw) as demo:
 
 if __name__ == "__main__":
     if _major >= 6:
-        demo.launch(theme=TEMA, css=CSS)
+        demo.launch(theme=TEMA, css=CSS, share=True)
     else:
-        demo.launch()
+        demo.launch(share=True)
